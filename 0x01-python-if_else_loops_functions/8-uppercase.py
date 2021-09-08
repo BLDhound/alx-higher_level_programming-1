@@ -4,5 +4,5 @@ def uppercase(str):
         b = ord(str[a])
         if (b >= ord('a') and b <= ord('z')):
             b -= ord('a') - ord('A')
-        print("{:c}".format(j), end="")
+        print("{:c}".format(b), end="")
     print()
