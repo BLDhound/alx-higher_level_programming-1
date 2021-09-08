@@ -4,4 +4,4 @@ for i in range(ord('z'), ord('a') - 1, -1):
         i -= 32
     print("{:c}".format(i), end="")
     if i % 2:
-        I += 32
+        i += 32
