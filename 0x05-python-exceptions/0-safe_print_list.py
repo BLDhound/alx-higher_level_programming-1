@@ -4,10 +4,11 @@ def safe_print_list(my_list=[], x=0):
         print()
         return (0)
     try:
-        for index_x in range(x):
-            print(my_list[index_x], end="")
+        for idx in range(x):
+            print(my_list[idx], end="")
     except:
-        index_x = index_x - 1
+        # case when range(x) > len, the last idx = 1 more
+        idx = idx - 1
     finally:
         print()
-        return(index_x + 1)
+        return(idx + 1)
