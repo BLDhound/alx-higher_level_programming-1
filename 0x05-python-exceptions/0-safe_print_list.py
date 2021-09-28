@@ -6,7 +6,7 @@ def safe_print_list(my_list=[], x=0):
     try:
         for index_x in range(x):
             print(my_list[index_x], end="")
-    except NameError:
+    except:
         index_x = index_x - 1
     finally:
         print()
