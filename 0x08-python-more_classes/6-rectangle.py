@@ -2,6 +2,7 @@
 """class Rectangle"""
 
 
+
 class Rectangle:
     """Constructor of the empty class Rectangle"""
 
