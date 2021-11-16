@@ -1,2 +1,2 @@
 -- List databases
-mysql -u user
+mysql -u user -p
