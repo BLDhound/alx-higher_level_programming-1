@@ -5,6 +5,6 @@ CREATE TABLE IF NOT EXISTS cities (
   id INT UNIQUE AUTO_INCREMENT NOT NULL,
   state_id INT NOT NULL,
   name VARCHAR(256) NOT NULL,
-  PRIMARY KEY (ID)
+  PRIMARY KEY (id),
   FOREIGN KEY (orderer_id) REFERENCES users(states.id)
 );
