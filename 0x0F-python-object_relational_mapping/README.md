@@ -36,3 +36,12 @@ Do you see the difference? Cool, right?
 The biggest difficulty with ORM is: The syntax!
 
 Indeed, all of them have the same type of syntax, but not always. Please read tutorials and don’t read the entire documentation before starting, just jump on it if you don’t get something.
+
+## General
+
+* Why Python programming is awesome
+* How to connect to a MySQL database from a Python script
+* How to SELECT rows in a MySQL table from a Python script
+* How to INSERT rows in a MySQL table from a Python script
+* What ORM means
+* How to map a Python Class to a MySQL table
