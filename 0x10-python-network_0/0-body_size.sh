@@ -1,3 +1,3 @@
-#!/usr/bin/python3
+#!/usr/bin/env bash
 # catch content-length
 curl -sI "$1" | grep "Content-Length" | cut -d ' ' -f2
