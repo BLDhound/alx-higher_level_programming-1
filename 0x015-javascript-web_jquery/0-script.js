@@ -1,0 +1,1 @@
+document.getElementsByTagName('header').style.color = '#FF0000';
